@@ -15,5 +15,7 @@ You need to wait until the log displays `INFO  io.micronaut.runtime.Micronaut - 
 # Development
 You need to create a button to redirect to the backend to log in with google. The url is `http://localhost:8080/oauth/login/google`. After you choose your use and log in you'll redirect to the url you set <a href="#configuration">earlier</a>.
 
+You can check swagger in the follow url: `http://localhost:8080/swagger-ui`
+
 # Security
 After login you'll see the JWT in the cookie to use in your requests.
